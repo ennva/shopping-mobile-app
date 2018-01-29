@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "app_id": "",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "proxies": [
+    {
+      "path": "/products",
+      "proxyUrl": "http://localhost:8080/SpringBootCRUDApp/foodKartApi/products"
+    }
+  ]
+}

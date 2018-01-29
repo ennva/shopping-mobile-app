@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "app_id": "",
+  "integrations": {},
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "proxies": [
+    {
+      "path": "/",
+      "proxyUrl": "http://ennvafoodcart.epizy.com"
+    }
+  ]
+}
